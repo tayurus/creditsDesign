@@ -1,0 +1,5 @@
+@media (max-width:570px), (max-device-width:570px) {
+    .footer-wrapper{
+        background: none;
+    }
+}
