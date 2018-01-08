@@ -76,9 +76,9 @@ select[name="language"] {
     height: 28px;
 }
 
-/* verify */
+/* result */
 
-.verify-wrapper {
+.result-wrapper {
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -111,19 +111,19 @@ select[name="language"] {
     margin-bottom: 10px;
 }
 
-.verify-col {
+.result-col {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.verify-account {
+.result-account {
     width: 260px;
     background-color: #fff;
     padding: 35px 35px 40px 15px;
 }
 
-.verify-account h1 {
+.result-account h1 {
     color: #000000;
     font-family: "Montserrat - Semi Bold";
     font-size: 28px;
@@ -135,7 +135,7 @@ select[name="language"] {
     background: #ecb32e;
 }
 
-.verify-account .line {
+.result-account .line {
     margin-bottom: 10px;
 }
 
@@ -163,23 +163,24 @@ select[name="language"] {
     cursor: pointer;
 }
 
-.verify {
+.result {
     background: #fff;
     padding: 27px;
+    overflow: hidden;
 }
 
-.verify h3 {
+.result h3 {
     color: #818181;
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 40px;
 }
 
-.verify-selectWrapper {
+.result-selectWrapper {
     margin-bottom: 40px;
 }
 
-.verify label, .selectWrapper-balance {
+.result label, .selectWrapper-balance {
     display: block;
     color: #000000;
     font-size: 16px;
@@ -198,7 +199,7 @@ select[name="language"] {
     display: inline-block;
 }
 
-#verify-To, #verify-amount {
+#result-To, #result-amount {
     width: 80%;
     font-size: 18px;
     color: #000;
@@ -207,7 +208,7 @@ select[name="language"] {
     margin-bottom: 50px;
 }
 
-.verify-fee {
+.result-fee {
     display: flex;
     width: 65%;
     justify-content: space-between;
@@ -215,24 +216,30 @@ select[name="language"] {
     margin-bottom: 50px;
 }
 
-.verify-fee-values, .verify-fee-percents {
+.result-fee-values, .result-fee-percents {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.verify-fee .verify-title {
+.result-title{
+    margin-bottom: 10px;
+}
+
+.result-fee .result-title {
     margin: 0px;
 }
 
-.verify-amount {
+.result-amount, .result-hash {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
-#verify-code {
+#result-code {
     width: 80%;
     font-size: 18px;
     color: #000;
@@ -241,7 +248,7 @@ select[name="language"] {
     margin-bottom: 50px;
 }
 
-.verify-generateBtn {
+.result-see{
     display: block;
     margin: auto;
     background-color: transparent;
@@ -252,6 +259,7 @@ select[name="language"] {
     text-transform: uppercase;
     padding: 17px;
     cursor: pointer;
+    margin-bottom: 40px;
 }
 
 /* FOOTER */

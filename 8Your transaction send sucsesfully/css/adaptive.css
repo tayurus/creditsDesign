@@ -17,27 +17,27 @@
     }
 }
 
-/* VERIFY */
+/* result */
 
-@media (max-width:750px), (max-device-width:750px) {
-    .verify-wrapper {
+@media (max-width:850px), (max-device-width:850px) {
+    .result-wrapper {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .verify-account {
+    .result-account {
         margin-right: 10px;
     }
-    .verify-col {
+    .result-col {
         width: 90%;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
         margin-bottom: 10px;
     }
-    #verify-fee {
+    #result-fee {
         margin-bottom: 5px;
     }
-    .verify-feeText {
+    .result-feeText {
         display: block;
         margin-bottom: 20px;
     }
@@ -47,10 +47,10 @@
 }
 
 @media (max-width:535px), (max-device-width:535px) {
-    .verify-fee {
+    .result-fee {
         width: 100%;
     }
-    .verify-fee-values, .verify-fee-percents {
+    .result-fee-values, .result-fee-percents {
         font-size: 14px;
     }
 }
