@@ -76,11 +76,13 @@ select[name="language"] {
     height: 28px;
 }
 
-
-.enter-wrapper{
+/* PASSWORD */
+.password-wrapper{
+    /* flex-wrap:  wrap; */
     max-width: 1148px;
     margin: auto;
     display: flex;
+    justify-content:  space-around;
     margin: 30px auto;
 }
 
@@ -98,7 +100,6 @@ select[name="language"] {
     font-weight: bold;
     text-transform: uppercase;
     margin: 30px 0px;
-    /* margin-bottom: 32px; */
 }
 
 .faq-link{
@@ -111,56 +112,80 @@ select[name="language"] {
     margin-bottom: 10px;
 }
 
-.enter{
-    width: 100%;
+.password{
     max-width: 874px;
-    padding: 20px 0px 50px 20px;
-    background: #fff;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0px 40px 20px;
 }
 
-.enter h1{
-    font-family: "Montserrat - Regular";
-    font-size: 28px;
-    margin: 0px;
-    margin-bottom: 10px;
-}
-
-.enter-line{
+.line{
     width: 60px;
     height: 4px;
     background: #ecb32e;
 }
 
-.enter h3{
-    font-size: 16px;
+.password h1{
+    font-family: "Montserrat - Semi Bold";
+    font-size: 28px;
+}
+
+.password h3{
     color: #818181;
     font-family: "Montserrat - Regular";
+    font-size: 16px;
     margin-bottom: 45px;
 }
 
-.enter-btns{
-    max-width: 680px;
+.password-input{
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.password-input label{
+    font-family: "Montserrat - Regular";
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.password-input #password{
+    max-width: 518px;
+    color: #000000;
+    font-family: "Montserrat - Regular";
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid #d4d4d5;
+    background-color: #ffffff;
+}
+
+.password-download{
+    max-width: 502px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
 }
 
-.enter-btn{
-    width: 243px;
-    height: 62px;
-    background-color:  transparent;
-    border: 2px solid #000;
-    padding: 15px 35px;
+.password-download-label{
+    color: #000000;
     font-family: "Montserrat - Regular";
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 300;
+}
+
+.password-download-btn{
+    width: 153px;
+    padding: 13px 25px;
+    background:  transparent;
+    color: #000000;
+    font-family: "Montserrat - Regular";
+    cursor:  pointer;
+    font-size: 16px;
+    font-weight: bold;
     text-transform: uppercase;
-}
-
-.enter-btns span{
-    font-family: "Montserrat - Regular";
-    font-size: 16px;
+    border: 2px solid #000;
 }
 
 /* FOOTER */
