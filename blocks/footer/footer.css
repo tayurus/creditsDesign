@@ -1,0 +1,37 @@
+.footer{
+    background-color: #fff;
+}
+
+.footer__wrapper{
+    max-width: 1158px;
+    margin: auto;
+    padding: 15px;
+    background: url("img/footer-logo.png") no-repeat 97% center;
+}
+
+.footer__row{
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer__text{
+    font-family: "Montserrat - Regular";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer__text-marginRight-40{
+    margin-right: 40px;
+}
+
+.footer__text-rightAlign{
+    text-align: right;
+}
+
+@media (max-width:570px),(max-device-width:570px) {
+    .footer__wrapper{
+        background: none;
+    }
+}

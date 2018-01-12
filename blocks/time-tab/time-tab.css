@@ -1,0 +1,38 @@
+.time-tab{
+    max-width: 1150px;
+    margin: auto;
+    background-color: #fff;
+    padding: 15px 0px 30px 0px;
+}
+
+.time-tab__intervals{
+    max-width: 757px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+}
+
+.time-tab__interval{
+    color: #000000;
+    font-family: "Montserrat - Regular";
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.time-tab__interval-active{
+    border-bottom: 3px solid #000;
+    padding-bottom: 20px;
+    padding: 0px 10px 20px 10px;
+}
+
+.time-tab__info{
+    padding: 20px 0px;
+}
+
+@media (max-width:400px), (max-device-width:400px) {
+    .time-tab__interval{
+        font-size: 15px;
+    }
+}

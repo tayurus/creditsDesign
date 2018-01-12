@@ -1,5 +1,5 @@
 {
-  "name": "creditsdesign-master",
+  "name": "monitor-page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "gulp-cli": "^2.0.0"
-  },
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
-    "gulp-css-url-adjuster": "^0.2.3",
-    "gulp-rename": "^1.2.2",
-    "gulp-uncss": "^1.0.6"
+    "gulp-rename": "^1.2.2"
   }
 }

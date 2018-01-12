@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Credits monitor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="owlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlCarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="owlCarousel/owl.theme.green.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="owlCarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <span class="header__name">CREDITS</span>
+                <span class="header__wallet header__name-red">Wallet</span>
+            </div>
+
+            <div class="header__menu">
+                <a href="#" class="header__item header__item-active">new wallet</a>
+                <a href="#" class="header__item">monitor</a>
+                <a href="#" class="header__item">contracts</a>
+            </div>
+
+            <select class="header__lang">
+                    <option value="en">EN</option>
+                    <option value="ru">RU</option>
+            </select>
+        </div>
+
+        <form class="" action="" method="post">
+            <input type="text" name="search" class="header__search" placeholder="Search">
+        </form>
+
+    </header>
+
+    <div class="title title-background-gray">
+        <h1 class="title__text">Title text</h1>
+    </div>
+
+    <div class="time-tab">
+        <div class="time-tab__intervals">
+            <div class="time-tab__interval time-tab__interval-active">Today</div>
+            <div class="time-tab__interval">24 hours</div>
+            <div class="time-tab__interval">Last week</div>
+            <div class="time-tab__interval">Last month</div>
+        </div>
+
+        <div class="owl-carousel time-tab__info">
+            <div class="monitor">
+                <div class="monitor__title">All transactions</div>
+                <div class="monitor__value">12 034</div>
+                <div class="monitor__val-name">transactions</div>
+                <div class="monitor__val-percents">39% increase</div>
+            </div>
+            <div class="monitor">
+                <div class="monitor__title">All ledgers</div>
+                <div class="monitor__value">958 374</div>
+                <div class="monitor__val-name">units</div>
+                <div class="monitor__val-percents">39% increase</div>
+            </div>
+            <div class="monitor">
+                <div class="monitor__title">Volume in CS</div>
+                <div class="monitor__value">23 055</div>
+                <div class="monitor__val-name">transactions</div>
+                <div class="monitor__val-percents">39% increase</div>
+            </div>
+            <div class="monitor">
+                <div class="monitor__title">Smart contracts</div>
+                <div class="monitor__value">53 957</div>
+                <div class="monitor__val-name">transactions</div>
+                <div class="monitor__val-percents">39% increase</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="last-block">
+        <h2 class="last-block__title">Last block</h2>
+        <div class="last-block__number">№ of transactions</div>
+        <div class="last-block__txns">5 txns</div>
+        <div class="last-block__table-wrapper">
+            <table class="last-block__table">
+                <tr>
+                    <th>№</th>
+                    <th>Age</th>
+                    <th>Status</th>
+                    <th>LedgHash</th>
+                    <th>Quant txs</th>
+                    <th>All value</th>
+                    <th>All fee</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>1h 30m</td>
+                    <td class="success">Success</td>
+                    <td>CS12rf123</td>
+                    <td>135</td>
+                    <td>100 CS</td>
+                    <td>0.001</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1h 30m</td>
+                    <td class="failed">No success</td>
+                    <td>CS12rf123</td>
+                    <td>135</td>
+                    <td>100 CS</td>
+                    <td>0.001</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1h 30m</td>
+                    <td class="failed">No success</td>
+                    <td>CS12rf123</td>
+                    <td>135</td>
+                    <td>100 CS</td>
+                    <td>0.001</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1h 30m</td>
+                    <td class="failed">No success</td>
+                    <td>CS12rf123</td>
+                    <td>135</td>
+                    <td>100 CS</td>
+                    <td>0.001</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="last-block__seeAll">See all ledgers</div>
+    </div>
+
+
+    <div class="last-block">
+        <h2 class="last-block__title">Last transactions</h2>
+        <div class="last-block__number">№ of transactions</div>
+        <div class="last-block__txns">5 txns</div>
+        <div class="last-block__table-wrapper">
+            <table class="last-block__table">
+                <tr>
+                    <th>№</th>
+                    <th>Age</th>
+                    <th>Status</th>
+                    <th>LedgHash</th>
+                    <th>From account</th>
+                    <th>To account</th>
+                    <th>Value</th>
+                    <th>Fee</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>1h 30m</td>
+                    <td class="success">Success</td>
+                    <td>CS12rf123</td>
+                    <td>CS12rf123</td>
+                    <td>CS12rf123</td>
+                    <td>100 CS</td>
+                    <td>0.001</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="last-block__seeAll">See all transactions</div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__row">
+                <div class="footer__text footer__text-marginRight-40">
+                    About CREDITS<br/> CREDITS.COM PTE. LTD.<br/> Reg. No.: 201725929C<br/> Check
+                    <br/> 79 Ayer Rajah Crescent<br/> #05-08 Singapore 139955<br/>
+                </div>
+                <div class="footer__text">
+                    Contacts<br/> Advertising & PR: pr@credits.com<br/> Press & news: press@credits.com<br/> General issues: info@credits.com<br/> Tel: +65 8114 9362<br/>
+                </div>
+            </div>
+
+            <div class="footer__text footer__text-rightAlign">
+                Copyright © 2017 CREDITS.COM All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.title{
+    background-color: #fff;
+    padding:20px 0px;
+    max-width: 1155px;
+    margin: auto;
+}
+
+.title-background-gray{
+      background-color: #ececec;
+}
+
+.title__text{
+    color: #000000;
+    font-family: "Montserrat - Semi Bold";
+    font-size: 28px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.title__line{
+    width: 60px;
+    height: 4px;
+    margin-bottom: 15px;
+    background-color: #ecb32e;
+}
+
+.title__tip{
+    color: #818181;
+    font-family: "Montserrat - Regular";
+    font-size: 18px;
+    font-weight: 300;
+}

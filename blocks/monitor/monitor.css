@@ -1,0 +1,31 @@
+.monitor {
+    width: 267px;
+    padding: 10px;
+    height: 145px;
+    background-color: #e6e6e6;
+    position: relative;
+}
+
+.monitor__title, .monitor__val-name, .monitor__val-percents{
+    color: #4b4b4b;
+    font-family: "Montserrat - Regular";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.monitor__value {
+    color: #4b4b4b;
+    font-family: "Montserrat - Regular";
+    font-size: 16px;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.monitor__val-percents{
+    width: 100%;
+    background-color: #ccc;
+    padding: 6px 15px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
