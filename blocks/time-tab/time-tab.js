@@ -1,18 +1,21 @@
 $(document).ready( () => {
     $(".owl-carousel.time-tab__info").owlCarousel({
         items:4,
-        stagePadding: 25,
+        stagePadding: 10,
         responsive:{
             0 : {
-                items:1
+                items:1,
+                dots:true
             },
-            600:{
-                items:2
+            550:{
+                items:2,
+                dots:true
             },
-            900:{
-                items:3
+            850:{
+                items:3,
+                dots:true
             },
-            1200:{
+            1100:{
                 items:4
             },
         }

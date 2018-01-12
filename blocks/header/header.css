@@ -47,6 +47,7 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-right: 20px;
+    text-decoration: none;
 }
 
 .header__item-active{
