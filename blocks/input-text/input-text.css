@@ -1,0 +1,36 @@
+.input-text{
+    padding: 10px;
+    width: 90%;
+}
+
+.input-text__label{
+    font-family: "Montserrat - Regular";
+    font-size: 16px;
+    font-weight: 300;
+    word-break: break-all;
+}
+
+.input-text__input{
+    width: 100%;
+    padding: 15px;
+    font-family: "Montserrat - Regular";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-text__input-width-50{
+    width: 50%;
+}
+
+.input-text__label-wordSpacing-20{
+    word-spacing: 20px;
+}
+
+.input-text__label-marginTop-5{
+    display: block;
+    margin-top: 5px;
+}
+
+.input-text__label-bold{
+    font-weight: bold;
+}

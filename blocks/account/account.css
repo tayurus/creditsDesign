@@ -1,0 +1,27 @@
+.account{
+    width: 260px;
+    padding: 20px 20px;
+    background-color: #fff;
+}
+
+.account__field{
+    margin-bottom: 25px;
+}
+
+.account__field-label{
+    font-family: "Montserrat - Regular";
+    font-weight: 300;
+}
+
+.account__field-text{
+    font-family: "Montserrat - Regular";
+    font-weight: bold;
+}
+
+.account__button{
+    margin-top: 15px;
+}
+
+.account-marginTop-20{
+    margin-top: 20px;
+}

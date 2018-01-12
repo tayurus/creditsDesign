@@ -3,6 +3,7 @@
     background: #ececec url("img/faq.png") no-repeat right bottom;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .FAQ__title{

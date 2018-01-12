@@ -40,6 +40,10 @@
     color: #ec2e2e;
 }
 
+.header__name-gold{
+    color: #ecb32e;;
+}
+
 .header__item{
     color: #ffffff;
     font-family: "Montserrat - Regular";

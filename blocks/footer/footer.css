@@ -2,6 +2,10 @@
     background-color: #fff;
 }
 
+.footer-marginTop-50{
+    margin-top: 50px;
+}
+
 .footer__wrapper{
     max-width: 1158px;
     margin: auto;
